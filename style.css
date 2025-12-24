@@ -1,18 +1,22 @@
 /* --- Variables & Reset --- */
 :root {
-    /* Palette from prompt */
-    --color-bg: #fdfdfd;
-    --color-text-main: #2d3436;
-    --color-text-light: #636e72;
-    --color-indigo: #6c5ce7;
-    --color-orange: #e65100;
-    --color-blue: #0277bd;
-    --color-yellow: #f9a825;
+
+    --color-bg: #eff4f6;          
+    --color-footer-bg: #e2e9ed;    
+    
+    --color-text-main: #222f3e;    
+    --color-text-light: #576574;  
+    
+    /* Shifted Vector Accents (Cool & Vibrant) */
+    --color-indigo: #341f97;       
+    --color-orange: #ff9f43;      
+    --color-blue: #00d2d3;         
+    --color-yellow: #feca57;       
     
     /* UI Tones */
-    --card-bg: #ffffff;
-    --shadow-soft: 0 4px 6px rgba(0,0,0,0.05);
-    --shadow-hover: 0 10px 20px rgba(108, 92, 231, 0.15); /* Indigo tint shadow */
+    --card-bg: #ffffff;            /* Pure white - looks very sharp on cool blue */
+    --shadow-soft: 0 12px 40px rgba(34, 47, 62, 0.05); /* Tinted with midnight blue */
+    --shadow-hover: 0 25px 50px rgba(52, 31, 151, 0.15); /* Tinted with royal indigo */
 }
 
 * {
@@ -212,10 +216,12 @@ main {
 /* --- Footer --- */
 footer {
     text-align: center;
-    padding: 3rem 0;
-    border-top: 1px solid #eee;
+    padding: 5rem 0; 
+    background-color: var(--color-footer-bg); 
+    border-top: 1px solid rgba(0,0,0,0.05);  
     color: var(--color-text-light);
     font-size: 0.9rem;
+    width: 100%;               
 }
 
 .footer-links {
