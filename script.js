@@ -6,7 +6,7 @@ const projects = [
     {
         id: 1,
         title: "Stats Card Component",
-        description: "A responsive stats card using Flexbox.",
+        description: "A responsive stats card made using Flexbox.",
         image: "./stats-preview-card/preview.jpg",
         tags: ["html", "css"],
         category: "layout",
@@ -18,13 +18,25 @@ const projects = [
     {
         id: 2,
         title: "Product Card Component",
-        description: "A responsive product card using Flexbox.",
+        description: "A responsive product card made using Flexbox.",
         image: "./product-preview-card/preview.jpg",
         tags: ["html", "css"],
         category: "layout",
         links: {
             view: "./product-preview-card/index.html",
             code: "https://github.com/builtbykabir/frontend-layouts/tree/main/product-preview-card"
+        }
+    },
+    {
+        id: 3,
+        title: "Price Grid Component",
+        description: "A price grid component.",
+        image: "./price-grid-component/preview.jpg",
+        tags: ["html", "css"],
+        category: "layout",
+        links: {
+            view: "./price-grid-component/index.html",
+            code: "https://github.com/builtbykabir/frontend-layouts/tree/main/price-grid-component"
         }
     }
 ];

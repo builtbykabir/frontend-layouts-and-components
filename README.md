@@ -8,5 +8,6 @@ I’ll keep adding more layouts here as I create them:
 
 - [Stats Preview Card](https://builtbykabir.github.io/frontend-layouts/stats-preview-card/index.html)
 - [Product Preview Card](https://builtbykabir.github.io/frontend-layouts/product-preview-card/index.html)
+- [Price Grid Component](https://builtbykabir.github.io/frontend-layouts/price-grid-component/index.html)
 
 Stay tuned 🙂
