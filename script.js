@@ -38,6 +38,18 @@ const projects = [
             view: "./price-grid-component/index.html",
             code: "https://github.com/builtbykabir/frontend-layouts/tree/main/price-grid-component"
         }
+    },
+    {
+        id: 4,
+        title: "Bento Grid",
+        description: "Bento Grid in CSS",
+        image: "./bento-grid/preview.jpg",
+        tags: ["html", "css"],
+        category: "layout",
+        links: {
+            view: "./bento-grid/index.html",
+            code: "https://github.com/builtbykabir/frontend-layouts/tree/main/bento-grid"
+        }
     }
 ];
 

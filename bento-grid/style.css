@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede;
+}
+
+.container {
+  width: 350px;
+}
+
+.card {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  text-align: left;
+  padding: 2rem;
+}
+
+.social-media {
+  background-color: hsl(256, 67%, 59%);
+  grid-area: area1;
+  color: #fff;
+  text-align: center;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.social-media p span {
+  color: hsl(39, 100%, 71%);
+}
+
+.card img {
+  width: 80%;
+  padding: 0.5rem 0;
+}
+
+.social-media p:nth-child(1) {
+  line-height: 2.2rem;
+  width: 80%;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.multiple-accounts {
+  background-color: hsl(0, 0%, 100%);
+  grid-area: area2;
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+
+.posting-schedule {
+  background-color: hsl(39, 100%, 71%);
+  align-items: flex-start;
+  padding-bottom: 0;
+  grid-area: area3;
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.card p {
+  line-height: 1.3rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.optimize-timing {
+  background-color: hsl(254, 88%, 90%);
+  grid-area: area4;
+  text-align: center;
+  grid-column: 4/5;
+  grid-row: 1/4;
+}
+
+.optimize-timing p {
+  font-weight: 500;
+}
+
+.grow-followers {
+  background-color: hsl(256, 67%, 59%);
+  grid-area: area5;
+  text-align: center;
+  grid-column: 3/5;
+  grid-row: 4/5;
+}
+
+.grow-followers p {
+  color: hsl(0, 0%, 100%);
+}
+
+.audience-growth {
+  background-color: hsl(0, 0%, 100%);
+  align-items: flex-start;
+  grid-area: area6;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.audience-growth p span {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.schedule-content {
+  background-color: hsl(31, 66%, 93%);
+  align-items: flex-start;
+  grid-area: area7;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.schedule-content p {
+  width: 80%;
+  font-weight: 500;
+}
+
+.schedule-content p span {
+  color: hsl(256, 67%, 59%);
+}
+
+.ai-content {
+  background-color: hsl(39, 100%, 71%);
+  align-items: flex-start;
+  grid-area: area8;
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+
+.ai-content p {
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  width: 80%;
+  font-weight: 800;
+}
+
+.attribution {
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin: 2rem auto;
+    text-align: left;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-areas:
+      "area7 area1 area1 area4"
+      "area7 area2 area3 area4"
+      "area8 area6 area5 area5"; */
+
+    grid-template-rows: 300px 150px 150px 300px;
+    gap: 2rem;
+  }
+
+  .optimize-timing {
+    justify-content: space-evenly;
+  }
+
+  .optimize-timing p:nth-child(1) {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 800;
+  }
+
+  .card {
+    margin: unset;
+    justify-content: space-evenly;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .card p {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 800;
+    padding: unset;
+  }
+
+  .multiple-accounts img {
+    align-self: self-start;
+    width: unset;
+    height: 40%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .posting-schedule img {
+    width: 100%;
+  }
+
+  .grow-followers {
+    flex-direction: row;
+  }
+
+  .grow-followers img {
+    width: 50%;
+  }
+
+  .ai-content img {
+    align-self: center;
+    width: 100%;
+  }
+
+  .schedule-content p {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+
+  .audience-growth p span {
+    font-size: 4rem;
+  }
+
+  .audience-growth p {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  .optimize-timing p {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    font-weight: normal;
+  }
+
+  .optimize-timing img {
+    align-self: self-start;
+    width: unset;
+    height: 60%;
+    object-fit: cover;
+  }
+
+  .social-media p:nth-child(1) {
+    font-size: 3.5rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .social-media p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .social-media img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: 250px;
+  }
+}
+
+@media (max-width: 260px) {
+  .container {
+    width: 240px;
+  }
+}
