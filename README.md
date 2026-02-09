@@ -8,4 +8,5 @@ A curated collection of frontend layouts and UI components built from scratch us
 - [Product Preview Card](https://builtbykabir.github.io/frontend-layouts-and-components/product-preview-card/)
 - [Price Grid Component](https://builtbykabir.github.io/frontend-layouts-and-components/price-grid-component/)
 - [Bento Grid](https://builtbykabir.github.io/frontend-layouts-and-components/bento-grid/)
+- [Testimonials Grid Section](https://builtbykabir.github.io/frontend-layouts-and-components/testimonials-grid-section/)
 

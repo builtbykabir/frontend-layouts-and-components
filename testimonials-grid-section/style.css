@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed";
+  color: hsl(214, 17%, 92%);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(0, 0%, 81%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.card .profile {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.card .profile .img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid hsl(264, 82%, 80%);
+}
+
+.card .profile .img {
+  flex-shrink: 0;
+}
+
+.card .profile p:nth-child(1) {
+  font-weight: 600;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card .content p:nth-child(1) {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.container .card:nth-child(1) {
+  background-color: hsl(263, 55%, 52%);
+  grid-area: one;
+}
+
+.container .card:nth-child(1) .quotation-svg img {
+  display: none;
+}
+.container .card:nth-child(2) {
+  background-color: hsl(217, 19%, 35%);
+  grid-area: two;
+}
+.container .card:nth-child(3) {
+  background-color: hsl(0, 0%, 100%);
+  grid-area: three;
+}
+
+.container .card:nth-child(3) p,
+.container .card:nth-child(5) p {
+  color: hsl(217, 19%, 35%);
+}
+
+.container .card:nth-child(3) .img,
+.container .card:nth-child(5) .img {
+  border: 4px solid hsl(217, 19%, 35%);
+}
+
+.container .card:nth-child(4) {
+  background-color: hsl(219, 29%, 14%);
+  grid-area: four;
+}
+.container .card:nth-child(5) {
+  background-color: hsl(0, 0%, 100%);
+  grid-area: five;
+}
+
+.attribution {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: hsl(212, 21%, 14%);
+}
+
+.attribution a {
+  color: hsl(212, 21%, 14%);
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "one one two five"
+      "three four four five";
+    gap: 1.5rem;
+  }
+  .card {
+    width: unset;
+  }
+  .container .card:nth-child(1) {
+    position: relative;
+    z-index: 0;
+  }
+  .container .card:nth-child(1) .quotation-svg{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1 ;
+  }
+
+  .container .card:nth-child(1) .profile,
+.container .card:nth-child(1) .content {
+  position: relative;
+  z-index: 2;
+}
+
+  .container .card:nth-child(1) .quotation-svg img {
+    display: unset;
+    opacity: 0.4;
+  pointer-events: none;
+  }
+}
+
+@media(max-width:424px){
+  .container{
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .card{
+    width: 80%;
+  }
+}

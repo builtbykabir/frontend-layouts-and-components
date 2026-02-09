@@ -12,7 +12,7 @@ const projects = [
         category: "layout",
         links: {
             view: "./stats-preview-card/index.html",
-            code: "https://github.com/builtbykabir/frontend-layouts/tree/main/stats-preview-card"
+            code: "https://github.com/builtbykabir/frontend-layouts-and-components/tree/main/stats-preview-card"
         }
     },
     {
@@ -24,7 +24,7 @@ const projects = [
         category: "layout",
         links: {
             view: "./product-preview-card/index.html",
-            code: "https://github.com/builtbykabir/frontend-layouts/tree/main/product-preview-card"
+            code: "https://github.com/builtbykabir/frontend-layouts-and-components/tree/main/product-preview-card"
         }
     },
     {
@@ -36,7 +36,7 @@ const projects = [
         category: "layout",
         links: {
             view: "./price-grid-component/index.html",
-            code: "https://github.com/builtbykabir/frontend-layouts/tree/main/price-grid-component"
+            code: "https://github.com/builtbykabir/frontend-layouts-and-components/tree/main/price-grid-component"
         }
     },
     {
@@ -48,7 +48,19 @@ const projects = [
         category: "layout",
         links: {
             view: "./bento-grid/index.html",
-            code: "https://github.com/builtbykabir/frontend-layouts/tree/main/bento-grid"
+            code: "https://github.com/builtbykabir/frontend-layouts-and-components/tree/main/bento-grid"
+        }
+    },
+    {
+        id: 5,
+        title: "Testimonials Grid",
+        description: "Testimonials Grid in CSS",
+        image: "./testimonials-grid-section/preview.jpg",
+        tags: ["html", "css"],
+        category: "layout",
+        links: {
+            view: "./testimonials-grid-section/index.html",
+            code: "https://github.com/builtbykabir/frontend-layouts-and-components/tree/main/testimonials-grid-section"
         }
     }
 ];
