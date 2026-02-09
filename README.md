@@ -1,13 +1,11 @@
-# Frontend Layouts
+# Frontend Layouts and Components
 
-This repository is a collection of frontend layouts I’ve built to practice **HTML**, **CSS**, and **JavaScript**.  
-Each layout focuses on improving my understanding of structure, styling, responsiveness, and interactive behavior on the web.
+A curated collection of frontend layouts and UI components built from scratch using HTML, CSS, Tailwind, and vanilla JavaScript, with an emphasis on responsive design and fundamental UI interaction patterns.
 
-## Layouts
-I’ll keep adding more layouts here as I create them:
+## List of Projects
 
-- [Stats Preview Card](https://builtbykabir.github.io/frontend-layouts/stats-preview-card/index.html)
-- [Product Preview Card](https://builtbykabir.github.io/frontend-layouts/product-preview-card/index.html)
-- [Price Grid Component](https://builtbykabir.github.io/frontend-layouts/price-grid-component/index.html)
+- [Stats Preview Card](https://builtbykabir.github.io/frontend-layouts-and-components/stats-preview-card/)
+- [Product Preview Card](https://builtbykabir.github.io/frontend-layouts-and-components/product-preview-card/)
+- [Price Grid Component](https://builtbykabir.github.io/frontend-layouts-and-components/price-grid-component/)
+- [Bento Grid](https://builtbykabir.github.io/frontend-layouts-and-components/bento-grid/)
 
-Stay tuned 🙂

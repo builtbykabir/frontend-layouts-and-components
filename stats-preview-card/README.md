@@ -9,8 +9,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Links
 
-- Solution URL: [check here](https://builtbykabir.github.io/frontend-layouts/stats-preview-card/index.html)
-- Live Site URL: [all my frontend layouts](https://builtbykabir.github.io/frontend-layouts/)
+- [Live Demo](https://builtbykabir.github.io/frontend-layouts-and-components/stats-preview-card/)
+- [Project Collection](https://builtbykabir.github.io/frontend-layouts-and-components/)
+
 
 
 

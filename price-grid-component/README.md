@@ -9,8 +9,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## Links
 
-- Solution URL: [View Here](https://builtbykabir.github.io/frontend-layouts/price-grid-component/index.html)
-- Live Site URL: [All My Frontend Layouts](https://builtbykabir.github.io/frontend-layouts/)
+- [Live Demo](https://builtbykabir.github.io/frontend-layouts-and-components/price-grid-component/)
+- [Project Collection](https://builtbykabir.github.io/frontend-layouts-and-components/)
 
 
 
