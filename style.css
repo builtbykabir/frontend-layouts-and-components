@@ -11,7 +11,8 @@
     --color-indigo: #341f97;       
     --color-orange: #ff9f43;      
     --color-blue: #00d2d3;         
-    --color-yellow: #feca57;       
+    --color-yellow: #feca57;
+    --color-tailwind: #38bdf8;       
     
     /* UI Tones */
     --card-bg: #ffffff;            /* Pure white - looks very sharp on cool blue */
@@ -176,6 +177,7 @@ main {
 .tag.html { color: var(--color-orange); background: rgba(230, 81, 0, 0.1); }
 .tag.css { color: var(--color-blue); background: rgba(2, 119, 189, 0.1); }
 .tag.js { color: var(--color-yellow); background: rgba(249, 168, 37, 0.15); }
+.tag.tailwind {color: var(--color-tailwind); background: rgba(56, 189, 248, 0.15);}
 
 .card-title {
     font-size: 1.1rem;
